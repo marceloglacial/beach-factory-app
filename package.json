@@ -4,30 +4,23 @@
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
-    "dev": "expo start -c --tunnel",
+    "dev": "expo start --tunnel",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web"
   },
   "dependencies": {
-    "@expo/metro-runtime": "~3.1.1",
+    "@expo/ngrok": "^4.1.0",
     "expo": "~50.0.4",
     "expo-status-bar": "~1.11.1",
-    "nativewind": "^2.0.11",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-native": "0.73.2",
-    "react-native-web": "~0.19.6"
+    "react-native": "0.73.2"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
-    "@expo/webpack-config": "^19.0.1",
     "@types/react": "~18.2.45",
-    "@types/react-native": "^0.73.0",
-    "autoprefixer": "^10.4.17",
-    "babel-preset-expo": "^10.0.1",
-    "postcss": "^8.4.33",
-    "postcss-loader": "^8.0.0",
+    "add": "^2.0.6",
+    "nativewind": "^2.0.11",
     "tailwindcss": "3.3.2",
     "typescript": "^5.1.3"
   },
